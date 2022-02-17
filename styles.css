@@ -68,7 +68,7 @@ p {
 
 @media screen and (max-width: 425px) {
     .btn {
-        width: 36rem;
+        width: 30rem;
     }
     .container-text {
         width: 80%;
