@@ -28,7 +28,7 @@ function showQuotes(quotes) {
     .map(function (quotes) {
       return `<p> <span class="text-name">${quotes.character}: </span>
     <span class="text-quote">"${quotes.quote}"</span>
-    <a href="https://twitter.com/intent/tweet?text=${quotes.character}%20-%20%22${quotes.quote}%22&url=https://webanimequotes.netlify.app/" > <i class="fa-brands fa-twitter" id="twitter"></i> </a>
+    <a href="https://twitter.com/intent/tweet?text=${quotes.character}%20-%20%22${quotes.quote}%22&url=https://webanimequotes.netlify.app/" target="_blank"> <i class="fa-brands fa-twitter" id="twitter"></i> </a>
              </p>`;
     })
     .join(" ");
