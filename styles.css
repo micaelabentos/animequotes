@@ -66,6 +66,14 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
+.fa-twitter {
+  margin-left: 0.7rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #00acee;
+}
+
+
 @media screen and (max-width: 425px) {
     .btn {
         width: 30rem;
