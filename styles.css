@@ -73,19 +73,17 @@ p {
   color: #00acee;
 }
 
-
 @media screen and (max-width: 425px) {
-    .btn {
-        width: 30rem;
-    }
-    .container-text {
-        width: 80%;
-    }
+  .btn {
+    width: 30rem;
+  }
+  .container-text {
+    width: 80%;
+  }
 }
 
-
-@media screen and (max-width: 320px){
-    .btn {
-        width: 25.5rem;
-    }
+@media screen and (max-width: 320px) {
+  .btn {
+    width: 25.5rem;
+  }
 }
